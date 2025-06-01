@@ -56,7 +56,6 @@ const App = () => {
         { role: "model", text, fileUrl, isError },
       ]);
     };
-    // history = history.map((role, text) => ({ role, parts: [{ text }] }));
 
     const requestOptions = {
       method: "POST",
@@ -73,7 +72,6 @@ const App = () => {
       if (!response.ok) {
         throw new Error(data.response.error || "Something went wrong");
       }
-      //console.log(data);
       const apiResponseText = data.reply.trim();
       const fileUrl = data.fileUrl;
       updateHistory(apiResponseText, fileUrl);
