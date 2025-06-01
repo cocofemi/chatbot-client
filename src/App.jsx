@@ -73,7 +73,7 @@ const App = () => {
       if (!response.ok) {
         throw new Error(data.response.error || "Something went wrong");
       }
-      console.log(data);
+      //console.log(data);
       const apiResponseText = data.reply.trim();
       const fileUrl = data.fileUrl;
       updateHistory(apiResponseText, fileUrl);
