@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
 
 *{
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
@@ -10,7 +10,7 @@
 body{
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(#F4F0FF, #DACDFF);
+  background: linear-gradient(#F4F0FF);
 }
 #chatbot-toggler {
   position: fixed;
@@ -25,7 +25,7 @@ body{
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  transition: all 0.2s ease;;
+  transition: all 0.2s ease;
 }
 
 #chatbot-toggler span {
@@ -52,7 +52,7 @@ body{
   pointer-events: none;
   bottom: 90px;
   right: 35px;
-  width: 420px;
+  width: 400px;
   transform: scale(0.2);
   overflow: hidden;
   background: #FFF;
@@ -94,7 +94,7 @@ body{
 .header-info .logo-text {
   color: #FFF;
   font-size: 1.31rem;
-  font-weight: 600;;
+  font-weight: 600;
 }
 .chat-header button {
   height: 40px;
@@ -119,12 +119,12 @@ body{
   display: flex;
   flex-direction: column;
   gap: 20px;
-  height: 460px;
+  height: 360px;
   overflow-y: auto;
   padding: 25px 22px;
   margin-bottom: 82px;
   scrollbar-width: thin;
-  scrollbar-color: #DDD3F9 transparent;;
+  scrollbar-color: #DDD3F9 transparent;
 }
 
 .chat-body .message {
@@ -239,7 +239,7 @@ body{
     bottom: 0;
     height: 100%;
     width: 100%;
-    border-radius: 0;;
+    border-radius: 0;
   }
   .chatbot-popup .chat-header {
     padding: 12px 15px;
