@@ -1,4 +1,4 @@
-import ChatbotIcon from "./ChatBotIcon";
+import ChatbotIcon from "./ChatbotIcon";
 
 function ChatMessage({ chat }) {
   return (
