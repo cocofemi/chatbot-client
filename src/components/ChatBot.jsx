@@ -14,7 +14,7 @@ function ChatBot() {
               role: "model",
               text: `Hi there! 👋\n
                     Welcome to DC Talent Agency.
-                    To get started booking any of ou artist, please answer the following questions. Thanks \n
+                    To get started booking any of our artists, please answer the following questions. Thanks \n
                     Which of our artist would you like to book?`,
             },
           ];
