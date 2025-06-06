@@ -41,7 +41,7 @@ function Summary({ setStep }) {
     }
   }, []);
 
-  // console.log(summary.length);
+  // console.log(atBottom);
 
   return (
     <>
@@ -87,12 +87,14 @@ function Summary({ setStep }) {
               <div className="mt-6 flex flex-col gap-2">
                 <a
                   href={summary.pdf}
+                  target="_blank"
                   className="w-full px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md text-sm"
                 >
                   📄 Download PDF
                 </a>
                 <a
                   href={summary.excel}
+                  target="_blank"
                   className="w-full px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-md text-sm"
                 >
                   📊 Download Excel
@@ -156,7 +158,7 @@ function Summary({ setStep }) {
           {!atBottom && (
             <button
               onClick={scrollDown}
-              className="fixed bottom-32 left-1/2 transform -translate-x-1/2 z-50 bg-purple-500 hover:bg-purple-700 cursor-pointer text-white p-2 rounded-full shadow-lg"
+              className="fixed bottom-22 left-1/2 transform -translate-x-1/2 z-50 bg-purple-500 hover:bg-purple-700 cursor-pointer text-white p-2 rounded-full shadow-lg"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
