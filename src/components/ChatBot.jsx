@@ -100,7 +100,7 @@ function ChatBot() {
         <div className="chat-header">
           <div className="header-info">
             <ChatbotIcon />
-            <h2 className="logo-text">Budget Assistant 💰</h2>
+            <h2 className="logo-text">Booking Assistant 🧑‍🏫</h2>
           </div>
           <button
             onClick={() => setShowChatbot((prev) => !prev)}
