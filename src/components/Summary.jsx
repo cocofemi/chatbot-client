@@ -158,7 +158,7 @@ function Summary({ setStep }) {
           {!atBottom && (
             <button
               onClick={scrollDown}
-              className="fixed bottom-22 left-1/2 transform -translate-x-1/2 z-50 bg-purple-500 hover:bg-purple-700 cursor-pointer text-white p-2 rounded-full shadow-lg"
+              className="fixed bottom-20 left-1/2 transform -translate-x-1/2 z-50 bg-purple-500 hover:bg-purple-700 cursor-pointer text-white p-2 rounded-full shadow-lg"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
