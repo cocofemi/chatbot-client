@@ -5,7 +5,6 @@ import ChatBot from "./components/ChatBot";
 const App = () => {
   useEffect(() => {
     localStorage.removeItem("chatbotChatHistory");
-    localStorage.removeItem("chatbotChatHistory");
   });
   return (
     <>
