@@ -47,8 +47,8 @@ function BudgetForm() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="bg-white shadow-lg w-[600px] p-8 rounded-lg">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 m-[10px]">
+      <div className="bg-white shadow-lg w-[600px] p-2 rounded-lg">
         {/* Scroll Progress Bar */}
         {/* <div className="h-2 bg-gray-200 relative">
           <div
