@@ -149,6 +149,7 @@ function Summary({ setStep }) {
             <button
               onClick={() => {
                 setStep(1);
+                localStorage.removeItem("dc-responseData");
               }}
               className="bg-green-500 text-white py-2 px-4 rounded hover:bg-gray-400 cursor-pointer w-[330px]"
             >
