@@ -4,7 +4,6 @@ function ButtonScroll() {
   const [atBottom, setAtBottom] = useState(false);
 
   const scrollRef = useRef(null);
-  const inputRefs = useRef([]);
   useEffect(() => {
     const el = scrollRef.current;
     if (!el) return;
